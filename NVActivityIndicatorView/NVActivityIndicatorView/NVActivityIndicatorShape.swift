@@ -40,11 +40,10 @@ enum NVActivityIndicatorShape {
     case pacman
     case stroke
 
-    // swiftlint:disable cyclomatic_complexity function_body_length
     func layerWith(size: CGSize, color: UIColor) -> CALayer {
         let layer: CAShapeLayer = CAShapeLayer()
         var path: UIBezierPath = UIBezierPath()
-        let lineWidth: CGFloat = 2
+        let lineWidth: CGFloat = 5
 
         switch self {
         case .circle:
