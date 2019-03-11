@@ -30,8 +30,8 @@ import UIKit
 class NVActivityIndicatorAnimationBallSpinFadeLoader: NVActivityIndicatorAnimationDelegate {
 
     func setUpAnimation(in layer: CALayer, size: CGSize, color: UIColor) {
-        let circleSpacing: CGFloat = -2
-        let circleSize = (size.width - 4 * circleSpacing) / 5
+        //        let circleSpacing: CGFloat = -2
+        let circleSize: CGFloat = 3
         let x = (layer.bounds.size.width - size.width) / 2
         let y = (layer.bounds.size.height - size.height) / 2
         let duration: CFTimeInterval = 1
@@ -40,9 +40,9 @@ class NVActivityIndicatorAnimationBallSpinFadeLoader: NVActivityIndicatorAnimati
 
         // Scale animation
         let scaleAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
-
-        scaleAnimation.keyTimes = [0, 0.5, 1]
-        scaleAnimation.values = [1, 0.4, 1]
+        
+        scaleAnimation.keyTimes = [1]
+        scaleAnimation.values = [1]
         scaleAnimation.duration = duration
 
         // Opacity animation
