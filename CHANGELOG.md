@@ -1,5 +1,33 @@
 # Change log
 
+## [4.6.1](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.6.1)
+* Fix #261
+
+## [4.6.0](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.6.0)
+* New NVActivityIndicatorAnimationBallDoubleBounce animation (#258)
+* Unify product name (#260)
+
+## [4.5.1](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.5.1)
+* Fix #251
+
+## [4.5.0](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.5.0)
+* Add tvOS target (#248)
+
+## [4.4.1](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.4.1)
+* Don’t start/stop animating if unnecessary (#239)
+* Specify Swift version in Podspec (#245)
+
+## [4.4.0](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.4.0)
+* Fix #211
+* Swift 4.2 migration
+
+## [4.3.0](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.3.0)
+* Handle starting while waiting to stop (#218)
+* UI blocker fade in/out animation (#219)
+
+## [4.2.1](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.2.1)
+* Fix #213
+
 ## [4.2.0](https://github.com/ninjaprox/NVActivityIndicatorView/releases/tag/4.2.0)
 * Refactor `NVActivityIndicatorPresenter` with state pattern
 * Expose `isAnimating` from `NVActivityIndicatorPresenter` and `NVActivityIndicatorViewable` (#204)
